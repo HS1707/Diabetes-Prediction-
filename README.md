@@ -158,13 +158,13 @@ plt.show()
 ```
 # Output:
 
-![](C:\Users\harih\Pictures\DS\1.png)
+![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20.png?raw=true)
 
-![](C:\Users\harih\Pictures\DS\2.png)
+![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20(1).png?raw=true)
 
-![](C:\Users\harih\Pictures\DS\3.png)
+![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20(2).png?raw=true)
 
-![](C:\Users\harih\Pictures\DS\4.png)
+![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20(3).png?raw=true)
 
 
 # Result:
