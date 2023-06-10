@@ -1,5 +1,5 @@
 
-# MINI PROJECT: Diabetes Prediction
+# Mini Project: Diabetes Prediction using Random Forest Classifier
 
 # Aim:
      To develop a reliable algorithm that can accurately classify individuals as diabetic or non-diabetic based on their relevant features, aiding in early diagnosis and intervention for effective disease management.
