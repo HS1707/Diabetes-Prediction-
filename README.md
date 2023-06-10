@@ -1,5 +1,5 @@
 
-# Diabetes Prediction
+# MINI PROJECT: Diabetes Prediction
 
 # Aim:
      To develop a reliable algorithm that can accurately classify individuals as diabetic or non-diabetic based on their relevant features, aiding in early diagnosis and intervention for effective disease management.
