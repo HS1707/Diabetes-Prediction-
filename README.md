@@ -159,9 +159,13 @@ plt.show()
 ```
 # Output:
 ![]("C:\Users\harih\Pictures\DS\download.png")
+
 ![]("C:\Users\harih\Pictures\DS\download (1).png")
+
 ![]("C:\Users\harih\Pictures\DS\download (2).png")
+
 ![]("C:\Users\harih\Pictures\DS\download (3).png")
+
 # Result:
  Thus, the result of diabetes prediction for the given dataset was found using random forest classsifier indicating whether the individual is predicted to have diabetes or not.
 
