@@ -158,7 +158,6 @@ plt.show()
 ```
 # Output:
 
-![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20.png?raw=true)
 
 ![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20(1).png?raw=true)
 
