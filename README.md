@@ -22,6 +22,7 @@ Step 7: Predict the diabetes status for the testing data using the trained class
 Step 8: Evaluate the performance of the classifier by calculating relevant metrics such as accuracy, precision, recall, and F1 score.
 
 # Program:
+```
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -155,7 +156,12 @@ plt.bar(['Logistic Regression','SVM','KNN','Random Forest','Naivye Bayes','Gradi
 plt.ylabel('ROC AUC')
 plt.xlabel('Algortihms')
 plt.show()
-
+```
+# Output:
+![]("C:\Users\harih\Pictures\DS\download.png")
+![]("C:\Users\harih\Pictures\DS\download (1).png")
+![]("C:\Users\harih\Pictures\DS\download (2).png")
+![]("C:\Users\harih\Pictures\DS\download (3).png")
 # Result:
  Thus, the result of diabetes prediction for the given dataset was found using random forest classsifier indicating whether the individual is predicted to have diabetes or not.
 
