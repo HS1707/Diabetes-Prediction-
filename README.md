@@ -159,9 +159,9 @@ plt.show()
 # Output:
 
 
-![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20(1).png?raw=true)
+![](https://colab.research.google.com/drive/1X718F8b2GItenNhvduCRKhWy3qYahnED#scrollTo=tExxF4eFxUNB&line=1&uniqifier=1)
 
-![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20(2).png?raw=true)
+![]()
 
 
 
