@@ -164,7 +164,6 @@ plt.show()
 
 ![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20(2).png?raw=true)
 
-![](https://github.com/HS1707/Diabetes-Prediction-/blob/main/download%20(3).png?raw=true)
 
 
 # Result:
