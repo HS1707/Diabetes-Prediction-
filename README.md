@@ -158,6 +158,7 @@ plt.xlabel('Algortihms')
 plt.show()
 ```
 # Output:
+
 ![]("C:\Users\harih\Pictures\DS\download.png")
 
 ![]("C:\Users\harih\Pictures\DS\download (1).png")
