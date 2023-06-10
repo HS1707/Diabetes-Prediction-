@@ -159,9 +159,14 @@ plt.show()
 # Output:
 
 
-![](https://colab.research.google.com/drive/1X718F8b2GItenNhvduCRKhWy3qYahnED#scrollTo=tExxF4eFxUNB&line=1&uniqifier=1)
+![](1.png)
 
-![]()
+![](2.png)
+
+![](4.png)
+
+![](6.png)
+
 
 
 
