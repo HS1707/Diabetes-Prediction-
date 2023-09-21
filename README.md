@@ -66,49 +66,6 @@ print("\n---Q3--- \n",Q3)
 print("\n---IQR---\n",IQR)
 #print((df < (Q1 - 1.5 * IQR))|(df > (Q3 + 1.5 * IQR)))
 df_out = df[~((df < (Q1 - 1.5 * IQR)) |(df > (Q3 + 1.5 * IQR))).any(axis=1)]
-df.shape,df_out.shape
-#Scatter matrix after removing outlier
-sns.set(style="ticks")
-sns.pairplot(df_out, hue="Outcome")
-plt.show()
-#lets extract features and targets
-X=df_out.drop(columns=['Outcome'])
-y=df_out['Outcome']
-#Logistic Regression
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score
-acc=[]
-roc=[]
-clf=LogisticRegression()
-clf.fit(train_X,train_y)
-y_pred=clf.predict(test_X)
-#find accuracy
-ac=accuracy_score(test_y,y_pred)
-acc.append(ac)
-#find the ROC_AOC curve
-rc=roc_auc_score(test_y,y_pred)
-roc.append(rc)
-print("\nAccuracy {0} ROC {1}".format(ac,rc))
-#cross val score
-result=cross_validate(clf,train_X,train_y,scoring=scoring,cv=10)
-display_result(result)
-#display predicted values uncomment below line
-pd.DataFrame(data={'Actual':test_y,'Predicted':y_pred}).head()
-#KNN
-from sklearn.neighbors import KNeighborsClassifier
-clf=KNeighborsClassifier(n_neighbors=3)
-clf.fit(train_X,train_y)
-y_pred=clf.predict(test_X)
-#find accuracy
-ac=accuracy_score(test_y,y_pred)
-acc.append(ac)
-#find the ROC_AOC curve
-rc=roc_auc_score(test_y,y_pred)
-roc.append(rc)
-print("\nAccuracy {0} ROC {1}".format(ac,rc))
-#cross val score
-result=cross_validate(clf,train_X,train_y,scoring=scoring,cv=10)
-display_result(result)
 #display predicted values uncomment below line
 #pd.DataFrame(data={'Actual':test_y,'Predicted':y_pred}).head()
 #Random forest classifier
@@ -127,23 +84,6 @@ print("\nAccuracy {0} ROC {1}".format(ac,rc))
 result=cross_validate(clf,train_X,train_y,scoring=scoring,cv=10)
 display_result(result)
 pd.DataFrame(data={'Actual':test_y,'Predicted':y_pred}).head()
-#Gradient Boosting Classifier
-from sklearn.ensemble import GradientBoostingClassifier
-clf=GradientBoostingClassifier(n_estimators=50,learning_rate=0.2)
-clf.fit(train_X,train_y)
-y_pred=clf.predict(test_X)
-#find accuracy
-ac=accuracy_score(test_y,y_pred)
-acc.append(ac)
-#find the ROC_AOC curve
-rc=roc_auc_score(test_y,y_pred)
-roc.append(rc)
-print("\nAccuracy {0} ROC {1}".format(ac,rc))
-#cross val score
-result=cross_validate(clf,train_X,train_y,scoring=scoring,cv=10)
-display_result(result)
-#display predicted values uncomment below line
-#pd.DataFrame(data={'Actual':test_y,'Predicted':y_pred}).head()
 #lets plot the bar graph
 ax=plt.figure(figsize=(9,4))
 plt.bar(['Logistic Regression','SVM','KNN','Random Forest','Naivye Bayes','Gradient Boosting'],acc,label='Accuracy')
